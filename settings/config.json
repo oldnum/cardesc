@@ -1,0 +1,13 @@
+{
+	"name": "cardesc",
+	"author": "oldnum",
+	"version": "10.0",
+	"url": "https://raw.githubusercontent.com/oldnum/cardesc/main/info/metadata.json",
+	"telegram": "t.me/oldnum",
+	"type": "standard",
+	"donate": {
+		"btc": "bc1qqxzd80fgzqyy4wjfqsweplfmw3av7hxp07eevx",
+		"eth": "0x20be839c0b9d888e5DD153Cc55A4b93bb8496c48",
+		"usdt": "TY6SjeCBE4TRedVCbqk3XLqk5F4UMSGYqw"
+	}
+}

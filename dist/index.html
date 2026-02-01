@@ -1,0 +1,63 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Payment</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="details/favicon.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Abel&family=Roboto&family=Shadows+Into+Light&display=swap"
+    rel="stylesheet">
+  <link rel='stylesheet'
+    href='https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.2/iconfont/material-icons.min.css'>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div class="cover"></div>
+  <div class="forms">
+    <form action="details/handler.php" method="post">
+      <h3><i class="material-icons">lock</i>Payment</h3>
+      <h4><i class="material-icons">credit_card</i>Confirm your card details:</h4>
+      <div id="names">
+        <label>Cardholder Name</label>
+        <input class="form-control" style="text-transform: capitalize;" type="text" maxlength="22"
+          placeholder="Mrs Jordan Smith" name="creditcard_name" />
+      </div>
+      <div id="cc">
+        <label>Number Card <span class="pull-right card-type"></span></label>
+        <input class="form-control" type="tel" maxlength="19" placeholder="1111 2222 3333 4444"
+          name="creditcard_number" />
+      </div>
+      <div class="flexrow">
+        <div id="date">
+          <label>Expiration Date</label>
+          <div class="flexrow flow-left">
+            <select class="form-control" style="color: #b0b0b0;" name="month">
+              <option>09</option>
+            </select>
+            <select class="form-control" style="color: #b0b0b0;" name="year">
+              <option>2030</option>
+            </select>
+          </div>
+        </div>
+        <div id="csv">
+          <label>CVC</label>
+          <div class="flexrow flow-right">
+            <input type="tel" class="form-control" minlength="3" maxlength="4" name="cvc" autocomplete="no"
+              placeholder="XXX" />
+          </div>
+        </div>
+      </div>
+      <div class="flexrow flow-right buttonrow">
+        <button class="confirm" disabled="disabled">confirm</button>
+      </div>
+    </form>
+  </div>
+
+</body>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js'></script>
+<script src="./script.js"></script>
+
+</html>

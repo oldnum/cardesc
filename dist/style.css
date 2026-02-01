@@ -1,0 +1,179 @@
+/*font-family: 'Abel', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Shadows Into Light', cursive;*/
+body {
+  margin: 0;
+  background-color: transparent;
+  padding-top: 7em;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  background: gray;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Abel", sans-serif;
+}
+
+.forms {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+form {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 85%;
+  max-width: 450px;
+  transition: all 1s ease;
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.2);
+  padding: 40px 25px;
+  border-radius: 1em;
+  border-top-left-radius: 0;
+  box-shadow: 0px 0px 20px 15px rgba(255, 255, 255, 0.15);
+}
+
+form h3 {
+  position: absolute;
+  top: -35px;
+  left: 0;
+  height: 35px;
+  background: #fff;
+  color: #444;
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 35px;
+  --notchSize: 10px;
+  clip-path: polygon(0% var(--notchSize),
+      var(--notchSize) 0%,
+      100% 0%,
+      100% 100%,
+      0% 100%);
+}
+
+.buttonrow {
+  margin: 35px 0 0;
+  text-align: right;
+  width: 100%;
+}
+
+button {
+  background: var(--shared-background);
+  border: 3px solid #fff;
+  border-radius: 0.5em;
+  padding: 5px 15px;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+button:not([disabled="disabled"]):hover {
+  background: #fff;
+  color: #4b6b6a;
+}
+
+button[disabled="disabled"] {
+  opacity: 0.3;
+}
+
+form>i,
+form .form-control,
+form .form-control:focus {
+  font-size: 26px;
+  background: transparent;
+  color: #fff;
+  outline: none !important;
+}
+
+input[name="cvc"] {
+  max-width: 85px;
+}
+
+input[name="creditcard"],
+input[name="creditcard"]:focus {
+  font-size: 26px;
+}
+
+select[name="month"] {
+  max-width: 75px;
+}
+
+select[name="year"] {
+  max-width: 107px;
+}
+
+.flexrow {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flexrow.flow-left {
+  justify-content: left;
+}
+
+.flexrow.flow-right {
+  justify-content: flex-end;
+}
+
+i.material-icons {
+  font-size: 30px;
+  vertical-align: text-bottom;
+}
+
+form h3>i.material-icons {
+  font-size: 24px;
+  vertical-align: text-top;
+  color: #4b6c6b;
+}
+
+label {
+  display: block;
+  margin: 25px 0 0 0;
+}
+
+form .form-control,
+form .form-control:hover,
+form .form-control:focus {
+  display: inline-block;
+  box-shadow: none;
+  border: none;
+  border-bottom: 3px solid #ffffff;
+  border-radius: 0;
+  text-align: left;
+}
+
+.cover {
+  z-index: -1;
+  top: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  box-shadow: inset 0px 0px 165px 120px rgba(0, 0, 0, 0.25);
+  height: 100vh;
+  background: radial-gradient(at 90% -40%,
+      rgba(197, 238, 171, 1) 0%,
+      rgba(84, 133, 150, 1) 68%,
+      rgba(51, 94, 158, 1) 100%);
+}
+
+.card-type {
+  float: right;
+}
+
+::placeholder {
+  color: rgba(255, 255, 255, 0.3) !important;
+  opacity: 1;
+}
