@@ -251,7 +251,7 @@ def main():
 
     # Script Check
     if update_check(meta):
-        if perform_update():
+        if not perform_update():
             return
 
     if not check_dependencies():
