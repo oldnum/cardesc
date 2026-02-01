@@ -10,7 +10,7 @@ apt update && apt upgrade
 git clone https://github.com/oldnum/cardesc
 cd cardesc
 pip install -r requirements.txt
-python bank.py
+python main.py
 ```
 
 # Demo Results 📟
