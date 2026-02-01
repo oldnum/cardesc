@@ -1,13 +1,6 @@
 ## About 📌
 💳 Cardesc - is a universal financial transaction demo page with data logging for educational purposes.
 
-**Main menu :dart:**
-* [0] Transaction History - your demo transaction history.
-* [1] Payment page - demo bank card payment page (for learning only).
-* [1] -> [ports] - the port on which the program will run.
-* [2] Configuration - configure demo settings.
-* [3] Helping - instructions, tokens, other demo programs.
-
 # Requirements ⚙️
 - Python 3
 
