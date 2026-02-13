@@ -26,8 +26,4 @@ python main.py
 #  Donation 💰
 * 📒 BTC: `bc1qqxzd80fgzqyy4wjfqsweplfmw3av7hxp07eevx`
 * 📘 ETH: `0x20be839c0b9d888e5DD153Cc55A4b93bb8496c48`
-<<<<<<< HEAD
 * 📗 USDT (TRC20): `TY6SjeCBE4TRedVCbqk3XLqk5F4UMSGYqw`
-=======
-* 📗 USDT (TRC20): `TY6SjeCBE4TRedVCbqk3XLqk5F4UMSGYqw`
->>>>>>> b3de8a5 (upd v2.0.0)
